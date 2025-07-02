@@ -51,6 +51,22 @@ class Chatbook:
                 print("Username and password are not correct \nPlease enter correct username and password\n")
         self.menu()  
 
+    #Write a post method
+    def wrt_post(self):
+        if(self.logged_in):
+            post=input("Write your post :")
+            print(f"User post is :{post}")
+        else:
+            print("Please signin first to write a post\n")
+        self.menu()
+    def msg_frnd(self):
+        if(self.logged_in):
+            name=input("Enter your friend's username :")
+            msg=input("Enter your message :")
+            print(f"!!!Message is sent to {name}!!!")
+        else:
+            print("Please signin first...")
+
 
 #object creation 
 obj=Chatbook()
