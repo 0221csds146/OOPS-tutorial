@@ -9,3 +9,9 @@
  >Debugging
  >easy to colab
 6.End to end project (chatbook)
+ >function vs method
+ >magic method
+ >you can create class attribute outside the class also
+7.Encapsulation
+   >getter and setter method
+   >static method

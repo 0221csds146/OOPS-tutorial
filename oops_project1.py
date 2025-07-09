@@ -1,9 +1,10 @@
 class Chatbook:
     def __init__(self):
+         #private variable
         self.username =''
         self.password = ''
         self.logged_in = False
-        self.menu() # to show the menu after object creation
+        #self.menu() # to show the menu after object creation
 
     def menu(self):
         print('''Welcome to Chatbook!! \nHow would like you to proceed
