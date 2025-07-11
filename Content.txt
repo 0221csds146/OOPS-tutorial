@@ -15,3 +15,11 @@
 7.Encapsulation
    >getter and setter method
    >static method
+8.Inheriance
+   >Why inheritance is used
+   >what gets inherited(Constructor,Non private attributes,Non private methods)
+   >constructor overloading & method overloading
+   >super keyword()
+   >types:1.Single inheritance 2.Multiple inheritance 3.Multilevel inheritance
+            $.Hierarichal Inheriance 5. Hybrid inheritance
+   
